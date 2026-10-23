@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.ipynb_checkpoints/
+~$*
+
+# Datasets (see README)
+data/KITTI/
+data/KITTI_Odometry/
+
+# Generated outputs
+results/
+outputs/csv/*
+outputs/images/*
+outputs/videos/*
+outputs/reports/*
+!outputs/**/.gitkeep
