@@ -90,6 +90,7 @@ PLD/
 ├── outputs/statistics/       # Normalization statistics (KITTI Raw, Odometry)
 ├── utils/loader.py           # Model / artifact loader
 ├── dashboard/, data/, notebooks/   # Placeholders for the predictive (CPL) extension
+├── paper/CAMSF_Paper.pdf     # CAMSF paper (the method the dashboard implements)
 ├── docs/DOCUMENTATION.md     # Technical documentation
 └── test_*.py                 # Stage-by-stage pipeline tests
 ```
@@ -135,12 +136,16 @@ python evaluation/run_experiments.py
 
 ## Papers and documentation
 
-PLD has no paper of its own. It visualizes the methods of the research series:
+The dashboard implements the method of the **CAMSF paper**, which is included here:
+
+> **[Confidence-Driven Adaptive Multi-Sensor Fusion Framework for Robust Autonomous Vehicle Localization](paper/CAMSF_Paper.pdf)** — K. Vishwa ([`paper/CAMSF_Paper.pdf`](paper/CAMSF_Paper.pdf))
+
+All papers in the research series:
 
 | Paper | Repository |
 |---|---|
 | Sensor Confidence Index (SCI): An Intelligent Framework for Dynamic Sensor Quality Assessment in Autonomous Vehicle Perception | [SCI](https://github.com/vishwa-10147/SCI) |
-| Confidence-Driven Adaptive Multi-Sensor Fusion Framework for Robust Autonomous Vehicle Localization | [CAMSF](https://github.com/vishwa-10147/CAMSF) |
+| Confidence-Driven Adaptive Multi-Sensor Fusion Framework for Robust Autonomous Vehicle Localization | [`paper/CAMSF_Paper.pdf`](paper/CAMSF_Paper.pdf) · [CAMSF](https://github.com/vishwa-10147/CAMSF) |
 | Confidence-Guided Predictive Localization and Risk-Aware Decision Framework for Autonomous Vehicles | [CPL](https://github.com/vishwa-10147/CPL) |
 
 The technical documentation for this repository is in [`docs/DOCUMENTATION.md`](docs/DOCUMENTATION.md).
